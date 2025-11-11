@@ -1,0 +1,52 @@
+h1,{color: rgba(4, 53, 45, 0.514);}
+h2{color: #999d9a;}
+p {font-size: 16}
+img {width:200px;
+  width: 350px; /* ajuste conforme necessário */
+    height: auto;
+    border-radius: 200px; /* opcional: bordas arredondadas */
+}
+.marca{width: 5px;}
+.centro{text-align: center}
+.destaque{font-family: 'Great Vibes', cursive;color: #4f4b4d;font-size: 50px;font-weight: normal}
+.telefone{font-family: 'Courier New', Courier, monospace;}
+.contato {
+    background-color: #6941a4;
+    padding: 20px;
+    display: flex;border-radius: 5px;
+    justify-content: space-between; /* joga o formulário para a direita */
+}   
+
+form {
+    display: flex;
+    flex-direction: column; /* empilha os campos */
+    align-items: flex-end;  /* alinha à direita */
+    gap: 10px;              /* espaço entre os elementos */
+    width: 300px;           /* largura fixa ou ajustável */
+}
+
+
+.rodape {
+    background-color: #6c5590; /* cor do fundo do rodapé */
+    color: #fff; /* cor do texto */
+    text-align: center; /* centraliza o texto */
+    padding: 20px; /* espaçamento interno */
+    margin-top: 40px; /* espaço acima do rodapé */
+    font-size: 18px; /* tamanho da fonte */
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #ede4e4; /* cor do fundo */
+    font-family: Arial, sans-serif;
+}
+
+hr {
+    border: 0;
+    height: 3px;
+    background: linear-gradient(to right, #007BFF, #00CFFF); /* gradiente azul */
+    margin: 20px 0; /* espaçamento acima e abaixo */
+}
+
